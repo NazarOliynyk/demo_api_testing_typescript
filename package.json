@@ -1,0 +1,23 @@
+{
+  "name": "demo_api_testing_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc ./test/main.test.ts & mocha --reporter mochawesome"
+  },
+  "author": "Nazar Oliynyk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "ts-mocha": "^7.0.0",
+    "ts-node": "^9.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
